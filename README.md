@@ -1,6 +1,12 @@
 # SIH-Helmet Project
 
-This repository contains the software, firmware, and tools developed so far for the SIH-Helmet telemetry system. The project uses a Raspberry Pi Pico 2, an MPU6050 (Accelerometer + Gyroscope), and a NEO-6M GPS module to transmit real-time telemetry data to a local Python Flask dashboard.
+All the informations such as the Hardware, Software, connections, cost and testing has been documented in this readme. this is the full documentation of the smart helmet prototype I proof of concept. the entire premist behind the design was a need and drive towards a cheap (both in components and manufacturing) alternative to the overpriced smart-helmet market.
+
+The main problem is, even after India having a large number of road accident involving 2 wheelers. most fatal cases are due to people not being able to reach the hospital in time. the person involved in the accident is often in no condition to call an ambulance. at the same time even if there are people nearby people are either not trained to deal with the problem or the bystander effect kicks in and people assume someone else might call an ambulance or have already called one. 
+
+In such an environment, a helmet that can accurately detect a crash, call an ambulance to the site of the accident and be cheap in doing this, makes the world a better place.
+
+The features that make this unique is the ability to not only detect a crash, but also be able to say the severity and mode of injury during the crash, if imu data and gps data are used well enough, information like the height of the fall, the amount of kinetic energy absorbed, number of impacts become very useful, as mode of injusry is the first information doctors ask for when a new patient comes into the ER.
 
 ## Hardware
 
